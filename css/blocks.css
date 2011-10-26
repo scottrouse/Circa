@@ -106,3 +106,36 @@ h2.block-title /* Block title */ {
 
 #block-user-online /* "Who's online" block for a list of the online users */ {
 }
+
+
+#block-block-1 /* Copyright Statement Block */ {
+	text-align: right;
+	margin-right: 20px;
+}
+
+
+#block-menu-block-2 /* Secondary (Footer) Menu Block */ {
+	float: left;
+}
+
+#block-menu-block-2 ul {
+	padding: 0;
+	margin: 0 0 0 20px;
+}
+
+#block-menu-block-2 ul li {
+	list-style: none;
+	list-style-image: none;
+	float: left;
+	padding: 0 10px;
+	border-right: 1px solid #FFF;
+}
+
+#block-menu-block-2 ul li.first {
+	padding-left: 0;
+}
+
+#block-menu-block-2 ul li.last {
+	border-right: none;
+	padding-right: 0;
+}
