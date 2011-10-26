@@ -1,0 +1,19 @@
+.ds-left_top, .ds-left_bottom {
+	width: 25%;
+	float: left;
+}
+
+.ds-right_top, .ds-right_bottom-wrapper {
+	width: 75%;
+	float: right;
+}
+
+.ds-right_bottom_left {
+	width: 66.66%;
+	float: left;
+}
+
+.ds-right_bottom_right {
+	width: 33.33%;
+	float: right;
+}
