@@ -99,7 +99,9 @@ body {
  * Navigation
  */
 #navigation {
-  float: left; /* LTR */
+  position: absolute;
+  top: -150px;
+  left: 220px;
   width: 100%;
   margin-left: 0; /* LTR */
   margin-right: -100%; /* LTR */ /* Negative value of #navigation's width + left margin. */
@@ -112,7 +114,6 @@ body {
 .with-navigation #content,
 .with-navigation .region-sidebar-first,
 .with-navigation .region-sidebar-second {
-  margin-top: 3em; /* Set this to the same value as the navigation height above. */
 }
 
 #navigation .section {
@@ -160,6 +161,11 @@ body {
  * Page bottom
  */
 .region-bottom /* See also the #page-wrapper declaration above that this div shares. */ {
+	margin-top: -18px;
+}
+
+.region-bottom .block {
+	padding: 20px;
 }
 
 /*

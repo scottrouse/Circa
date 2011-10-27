@@ -267,9 +267,13 @@ button {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+	color: #000000;
+	text-decoration: underline;
 }
 
 a:visited {
+	color: #666666;
+	text-decoration: underline;
 }
 
 a:hover,
