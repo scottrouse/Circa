@@ -254,4 +254,18 @@ ul.links li {
 	color: #432818;
 	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
 	font-style: italic;
+	font-size: 1.1em;
+	padding-bottom: 3px;
+}
+
+.ds-right_bottom, .ds-right_bottom_bottom-wrapper {
+	padding: 0 30px 0 20px;
+}
+
+.ds-right_bottom_left .field {
+	margin-right: 15px;
+}
+
+.ds-right_bottom_right .field {
+	margin-left: 15px;
 }
