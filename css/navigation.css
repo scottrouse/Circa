@@ -39,7 +39,7 @@ li a.active {
 	margin: 0;
 }
 
-.block-menu-block .menu-name-main-menu ul.menu li {
+.block-menu-block .menu-name-main-menu ul.menu li, #node_dessert_full_group_quick_facts .field {
 	padding: 0 10px 0 0; /* LTR */
 	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
 	font-style: italic;
@@ -49,7 +49,7 @@ li a.active {
 	list-style-type: none;
 }
 
-#navigation ul#superfish-1 li a, .block-menu-block .menu-name-main-menu ul.menu li a {
+#navigation ul#superfish-1 li a, .block-menu-block .menu-name-main-menu ul.menu li a, #node_dessert_full_group_quick_facts .field {
 	color: #444444;
 	text-decoration: none;
 	padding: 10px;
@@ -86,7 +86,7 @@ li a.active {
 	
 }
 
-#navigation ul#superfish-1 li.menuparent ul, .block-menu-block .menu-name-main-menu ul.menu {
+#navigation ul#superfish-1 li.menuparent ul, .block-menu-block .menu-name-main-menu ul.menu, #node_dessert_full_group_quick_facts {
 	background: rgb(255,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,242,241,1) 23%, rgba(208,203,201,1) 66%, rgba(191,184,181,1) 91%, rgba(187,180,177,1) 100%, rgba(201,196,194,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(23%,rgba(243,242,241,1)), color-stop(66%,rgba(208,203,201,1)), color-stop(91%,rgba(191,184,181,1)), color-stop(100%,rgba(187,180,177,1)), color-stop(100%,rgba(201,196,194,1))); /* Chrome,Safari4+ */
@@ -99,6 +99,7 @@ li a.active {
 	-webkit-border-radius: 2px;
 	border-radius: 2px; /* future proofing */
 	-khtml-border-radius: 2px; /* for old Konqueror browsers */
+	border: none;
 }
 
 #navigation ul#superfish-1 li.menuparent ul li, .block-menu-block .menu-name-main-menu ul.menu li {
@@ -110,6 +111,34 @@ li a.active {
 	font-size: 1em;
 }
 
+#node_dessert_full_group_quick_facts .field {
+	border-bottom: 1px solid #C2C1C0;
+	border-top: 1px solid #F6F5F4;
+	margin: 0 10px;
+	padding: 0 0 0 50px;
+	text-align: center;
+	background: url(../images/quick_facts_sprite.png) left center no-repeat;
+}
+
+#node_dessert_full_group_quick_facts .field-name-field-dessert-prep-time {
+	background-position: 5px 5px;
+}
+
+#node_dessert_full_group_quick_facts .field-name-field-dessert-total-time {
+	background-position: 5px -57px;
+}
+
+#node_dessert_full_group_quick_facts .field-name-field-dessert-servings {
+	background-image: url(../images/quick_facts_sprite.png), url(../images/menu-decor.png);
+	background-position: 5px -113px, bottom center;
+	background-repeat: no-repeat;
+}
+
+#node_dessert_full_group_quick_facts .field .field-label, #node_dessert_full_group_quick_facts .field {
+	color: #666666;
+	font-weight: normal;
+}
+
 .block-menu-block .menu-name-main-menu ul.menu li {
 	border-bottom: 1px solid #C2C1C0;
 	border-top: 1px solid #F6F5F4;
@@ -119,15 +148,20 @@ li a.active {
 	font-size: 1em;
 }
 
-.block-menu-block .menu-name-main-menu {
-	padding: 10px;
+.block-menu-block .menu-name-main-menu, #node_dessert_full_group_quick_facts {
+	margin: 10px;
 }
 
 .block-menu-block .menu-name-main-menu ul.menu li {
 	font-size: 1.2em;
 }
 
-#navigation ul#superfish-1 li.menuparent ul li.first, .block-menu-block .menu-name-main-menu ul.menu li.first {
+#node_dessert_full_group_quick_facts .field {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#navigation ul#superfish-1 li.menuparent ul li.first, .block-menu-block .menu-name-main-menu ul.menu li.first, #node_dessert_full_group_quick_facts .field-name-field-dessert-prep-time {
 	border-top: none;
 }
 
@@ -135,6 +169,11 @@ li a.active {
 	border-bottom: none;
 	background: url(../images/menu-decor.png) bottom center no-repeat;
 	padding-bottom: 15px;
+}
+
+#node_dessert_full_group_quick_facts .field-name-field-dessert-servings {
+	border-bottom: none;
+	padding-bottom: 25px;
 }
 
 #navigation ul#superfish-1 li.menuparent ul {
