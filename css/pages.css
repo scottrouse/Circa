@@ -124,12 +124,15 @@ h3.title /* Comment title */ {
 }
 
 h1#page-title {
-	position: relative;
-	left: 400px;
 	color: #432818;
 	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
 	font-style: italic;
 	font-size: 1.6em;	
+}
+
+.node-type-dessert h1#page-title {
+	position: relative;
+	left: 430px;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
@@ -236,6 +239,11 @@ ul.links li {
 .region-footer {
 }
 
+.region-footer .block, .region-footer .block p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
 .region-footer #block-block-3 {
 	text-align: center;
 }
@@ -330,4 +338,66 @@ ul.links li {
 	position: relative;
 	/* top: -20px; */
 	z-index: 50;
+}
+
+
+
+
+
+
+/*
+ * Garnishes and Pairings Accordions
+ */
+
+.accordion-image .views-row .tips-image-wrapper {
+	position: relative;
+}
+
+.accordion-image .views-row .tips-image-wrapper .item-list {
+	width: 280px;
+}
+
+.accordion-image .views-row .tips-image-wrapper img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.accordion-image .views-row .views-field-nothing {
+	min-height: 255px;
+}
+
+.accordion-image .views-field-edit-node {
+	clear: both;
+}
+
+.accordion-image .views-row .views-field .item-list ul li {
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+/*
+ * FAQs
+ */
+
+.faq-list .views-row .views-field-title .views-label, .faq-list .views-row .views-field-field-faq-answer .views-label {
+	float: left;
+	margin-right: 1em;
+}
+
+.faq-list .views-row .views-field-field-faq-answer .field-content p {
+	margin-left: 2em;
+}
+
+.faq-list .views-row .views-field-field-faq-answer .field-content ul {
+	padding-left: 3em;
+}
+
+.faq-list .views-row .views-field-title {
+	font-weight: bold;
 }

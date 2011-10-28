@@ -24,7 +24,7 @@
  * to resize the font in the browser and produces the most consistent results
  * across different browsers.
  */
-body {
+body, .ui-widget-content {
   font-size: 100%; /* Fixes exaggerated text resizing in IE6 and IE7 */
   color: #666666;
 }
@@ -45,7 +45,8 @@ textarea,
 select,
 option,
 legend,
-fieldset {
+fieldset,
+.ui-widget {
   font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
 }
 

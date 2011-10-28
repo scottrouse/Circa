@@ -80,6 +80,9 @@ input {
 #block-search-form /* Wrapper for the search form */ {
 }
 
+#block-search-form .form-item-search-block-form input {
+	width: 300px;
+}
 
 /*
  * Drupal's default login form block

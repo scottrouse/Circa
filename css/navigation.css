@@ -208,6 +208,33 @@ li a.active {
 	content: "";
 }
 
+.block-menu-block .menu-name-main-menu ul.menu li.expanded ul {
+	background: none;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li.expanded ul li.leaf a {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li.expanded ul li.leaf {
+	border: none;
+	background: none;
+	list-style: circle;
+	font-size: 0.9em;
+	margin: 0 0 0 40px;
+	padding: 0;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li.expanded ul li.last {
+	margin-bottom: 10px;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li.expanded ul li.leaf a:hover, .block-menu-block .menu-name-main-menu ul.menu li.expanded ul li.leaf a.active {
+	color: #000000;
+}
+
 
 .region-navigation {
 }
