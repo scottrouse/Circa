@@ -289,3 +289,45 @@ ul.links li {
 .ds-left_bottom {
 	text-align: center;
 }
+
+.field-name-field-dessert-product-image {
+	height: 360px;
+}
+
+.field-name-field-dessert-product-image ul.field-slideshow-pager {
+	position: absolute;
+}
+
+.field-name-field-dessert-product-image ul.field-slideshow-pager li {
+	float: none;
+}
+
+.field-name-field-dessert-product-image ul.field-slideshow-pager li img {
+	border: 1px solid #71231F;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px; /* future proofing */
+	-khtml-border-radius: 2px; /* for old Konqueror browsers */
+	box-shadow: 0px 0px 2px #988377;
+	-moz-box-shadow: 0px 0px 2px #988377;
+	-webkit-box-shadow: 0px 0px 2px #988377;
+}
+
+.field-name-field-dessert-product-image ul.field-slideshow-pager li.activeSlide img {
+	box-shadow: 0px 0px 1px #EAE6E3;
+	-moz-box-shadow: 0px 0px 1px #EAE6E3;
+	-webkit-box-shadow: 0px 0px 1px #EAE6E3;
+}
+
+.field-name-field-dessert-product-image .field-slideshow {
+	position: absolute;
+	right: 30px;
+}
+
+.ds-bottom_wrapper {
+	background: url(../images/top-border.png) repeat-x top;
+	padding-top: 40px;
+	position: relative;
+	/* top: -20px; */
+	z-index: 50;
+}
