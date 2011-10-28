@@ -123,6 +123,15 @@ h3.title /* Comment title */ {
   margin: 0;
 }
 
+h1#page-title {
+	position: relative;
+	left: 400px;
+	color: #432818;
+	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+	font-style: italic;
+	font-size: 1.6em;	
+}
+
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
@@ -231,4 +240,18 @@ ul.links li {
  * Page bottom
  */
 .region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
+
+
+
+
+/*
+ * Dessert Pages
+ */
+
+.node-dessert .ds-right_bottom-wrapper .field-label {
+	border-bottom: 1px solid #A1938C;
+	color: #432818;
+	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+	font-style: italic;
 }

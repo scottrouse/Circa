@@ -34,7 +34,22 @@ li a.active {
   font-size: 1.2em;
 }
 
-#navigation ul#superfish-1 li a {
+.block-menu-block .menu-name-main-menu ul.menu {
+	padding: 0;
+	margin: 0;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li {
+	padding: 0 10px 0 0; /* LTR */
+	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+	font-style: italic;
+	font-size: 1.2em;
+	list-style: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#navigation ul#superfish-1 li a, .block-menu-block .menu-name-main-menu ul.menu li a {
 	color: #444444;
 	text-decoration: none;
 	padding: 10px;
@@ -52,6 +67,11 @@ li a.active {
 	-webkit-box-shadow: 0px 0px 3px #B7B6B6;
 }
 
+.block-menu-block .menu-name-main-menu ul.menu li a.active, .block-menu-block .menu-name-main-menu ul.menu li a:hover {
+	color: #E9E9E9;
+	background-color: #A8083A;	
+}
+
  /* @todo - How do we prevent the menu from shifting with the after/before addition of •? */
 
 #navigation ul#superfish-1 li a.active:before, #navigation ul#superfish-1 li a:hover:before, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:before {
@@ -66,7 +86,7 @@ li a.active {
 	
 }
 
-#navigation ul#superfish-1 li.menuparent ul {
+#navigation ul#superfish-1 li.menuparent ul, .block-menu-block .menu-name-main-menu ul.menu {
 	background: rgb(255,255,255); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,242,241,1) 23%, rgba(208,203,201,1) 66%, rgba(191,184,181,1) 91%, rgba(187,180,177,1) 100%, rgba(201,196,194,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(23%,rgba(243,242,241,1)), color-stop(66%,rgba(208,203,201,1)), color-stop(91%,rgba(191,184,181,1)), color-stop(100%,rgba(187,180,177,1)), color-stop(100%,rgba(201,196,194,1))); /* Chrome,Safari4+ */
@@ -81,7 +101,7 @@ li a.active {
 	-khtml-border-radius: 2px; /* for old Konqueror browsers */
 }
 
-#navigation ul#superfish-1 li.menuparent ul li {
+#navigation ul#superfish-1 li.menuparent ul li, .block-menu-block .menu-name-main-menu ul.menu li {
 	border-bottom: 1px solid #C2C1C0;
 	border-top: 1px solid #F6F5F4;
 	margin: 0 10px;
@@ -90,11 +110,28 @@ li a.active {
 	font-size: 1em;
 }
 
-#navigation ul#superfish-1 li.menuparent ul li.first {
+.block-menu-block .menu-name-main-menu ul.menu li {
+	border-bottom: 1px solid #C2C1C0;
+	border-top: 1px solid #F6F5F4;
+	margin: 0 10px;
+	width: 195px !important;
+	padding: 0;
+	font-size: 1em;
+}
+
+.block-menu-block .menu-name-main-menu {
+	padding: 10px;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li {
+	font-size: 1.2em;
+}
+
+#navigation ul#superfish-1 li.menuparent ul li.first, .block-menu-block .menu-name-main-menu ul.menu li.first {
 	border-top: none;
 }
 
-#navigation ul#superfish-1 li.menuparent ul li.last {
+#navigation ul#superfish-1 li.menuparent ul li.last, .block-menu-block .menu-name-main-menu ul.menu li.last {
 	border-bottom: none;
 	background: url(../images/menu-decor.png) bottom center no-repeat;
 	padding-bottom: 15px;
@@ -106,10 +143,14 @@ li a.active {
 	padding: 0 0 10px 0;
 }
 
-#navigation ul#superfish-1 li.menuparent ul a {
+#navigation ul#superfish-1 li.menuparent ul a, .block-menu-block .menu-name-main-menu ul.menu li a {
 	color: #666666;
 	margin: 5px 10px;
 	width: 155px !important;
+}
+
+.block-menu-block .menu-name-main-menu ul.menu li a {
+	display: block;
 }
 
 #navigation ul#superfish-1 li.menuparent ul a.active {
