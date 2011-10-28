@@ -3,6 +3,12 @@
  * Form Styling
  */
 
+input {
+	height: 25px;
+	border: 1px solid #BDBDBD;
+	padding: 0;
+	margin: 0;
+}
 
 .form-item /* Wrapper for a form element (or group of form elements) and its label */ {
   margin: 1.5em 0;
@@ -38,6 +44,16 @@
 }
 
 .form-submit /* The submit button */ {
+	border: none;
+	background-color: #A50034;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px; /* future proofing */
+	-khtml-border-radius: 2px; /* for old Konqueror browsers */
+	text-transform: uppercase;
+	padding: 5px;
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .container-inline div,

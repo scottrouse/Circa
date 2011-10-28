@@ -236,10 +236,26 @@ ul.links li {
 .region-footer {
 }
 
+.region-footer #block-block-3 {
+	text-align: center;
+}
+
+.region-footer #block-block-4 /*  */{
+	position: absolute;
+}
+
+.region-footer #block-search-form {
+	position: relative;
+	right: 0;
+	top: -80px;
+	float: right;
+}
+
 /*
  * Page bottom
  */
 .region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+	color: #FFFFFF;
 }
 
 
@@ -268,4 +284,8 @@ ul.links li {
 
 .ds-right_bottom_right .field {
 	margin-left: 15px;
+}
+
+.ds-left_bottom {
+	text-align: center;
 }

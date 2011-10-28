@@ -30,7 +30,7 @@ body {
 }
 
 #skip-to-nav,
-#page {
+#page, .region-bottom {
   font-size: 0.75em; /* 16px x .75 = 12px */
   line-height: 1.5em; /* 12px x 1.5 = 18px */
 }
@@ -149,7 +149,7 @@ ol ol, ol ul,
 
 li {
   margin: 0;
-  padding: 0;
+  padding: 0 0 5px 0;
 }
 
 .item-list ul li,

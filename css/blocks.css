@@ -116,6 +116,7 @@ h2.block-title /* Block title */ {
 
 #block-menu-block-2 /* Secondary (Footer) Menu Block */ {
 	float: left;
+	margin-top: 20px;
 }
 
 #block-menu-block-2 ul {
@@ -129,6 +130,7 @@ h2.block-title /* Block title */ {
 	float: left;
 	padding: 0 10px;
 	border-right: 1px solid #FFF;
+	line-height: 0.9em;
 }
 
 #block-menu-block-2 ul li.first {
@@ -138,4 +140,13 @@ h2.block-title /* Block title */ {
 #block-menu-block-2 ul li.last {
 	border-right: none;
 	padding-right: 0;
+}
+
+#block-menu-block-2 ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#block-menu-block-2 ul li a:hover {
+	text-decoration: underline;
 }

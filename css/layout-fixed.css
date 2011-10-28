@@ -155,13 +155,14 @@ body {
  * Footer
  */
 .region-footer {
+	padding: 20px;
 }
 
 /*
  * Page bottom
  */
 .region-bottom /* See also the #page-wrapper declaration above that this div shares. */ {
-	margin-top: -18px;
+	/* margin-top: -18px; */
 }
 
 .region-bottom .block {

@@ -41,9 +41,9 @@ body {
 }
 
 .region-footer {
+	background: url(../images/footer-top.png) repeat-x top;
 }
 
 .region-bottom {
-	background: url(../images/bottom-swirl.png) no-repeat center center #432818;
-	background-size: contain;
+	background: url(../images/bottom-swirl.png) no-repeat 40px -219px #432818;
 }
