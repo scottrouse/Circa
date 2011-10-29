@@ -196,7 +196,7 @@ table {
 
 th {
   text-align: left; /* LTR */
-  padding: 0;
+  padding-left: 10px;
   border-bottom: none;
 }
 
@@ -223,6 +223,7 @@ tr {
 }
 
 td {
+	padding: 10px;
 }
 
 /*

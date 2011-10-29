@@ -43,7 +43,7 @@ input {
   margin: 0; /* Drupal core uses "0.4em 0" */
 }
 
-.form-submit /* The submit button */ {
+.form-submit, a.form-submit /* The submit button */ {
 	border: none;
 	background-color: #A50034;
 	-moz-border-radius: 2px;
@@ -54,6 +54,12 @@ input {
 	padding: 5px;
 	color: #FFFFFF;
 	text-align: center;
+	margin: 1px;
+	text-decoration: none;
+}
+
+a.form-submit {
+	padding: 10px;
 }
 
 .container-inline div,

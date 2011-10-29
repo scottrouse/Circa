@@ -133,6 +133,7 @@ h1#page-title {
 .node-type-dessert h1#page-title {
 	position: relative;
 	left: 430px;
+	width: 500px;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
@@ -237,6 +238,7 @@ ul.links li {
  * Footer
  */
 .region-footer {
+	position: relative;
 }
 
 .region-footer .block, .region-footer .block p {
@@ -250,6 +252,8 @@ ul.links li {
 
 .region-footer #block-block-4 /*  */{
 	position: absolute;
+	top: 55px;
+	left: 30px;
 }
 
 .region-footer #block-search-form {
@@ -354,7 +358,7 @@ ul.links li {
 }
 
 .accordion-image .views-row .tips-image-wrapper .item-list {
-	width: 280px;
+	width: 255px;
 }
 
 .accordion-image .views-row .tips-image-wrapper img {
@@ -364,7 +368,7 @@ ul.links li {
 }
 
 .accordion-image .views-row .views-field-nothing {
-	min-height: 255px;
+	min-height: 235px;
 }
 
 .accordion-image .views-field-edit-node {
@@ -400,4 +404,25 @@ ul.links li {
 
 .faq-list .views-row .views-field-title {
 	font-weight: bold;
+}
+
+
+
+
+
+/*
+ * Shopping Cart (Header)
+ */
+
+#views-form-commerce-cart-block-default .views-row, #views-form-commerce-cart-block-default .line-item-quantity-label {
+	display: none;
+}
+
+#views-form-commerce-cart-block-default .line-item-quantity-raw {
+	padding: 3px 10px;
+	border: 1px solid #C9C9C9;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px; /* future proofing */
+	-khtml-border-radius: 2px; /* for old Konqueror browsers */
 }
