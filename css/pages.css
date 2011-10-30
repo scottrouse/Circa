@@ -349,6 +349,37 @@ ul.links li {
 
 
 
+
+/*
+ * Gift Options Page
+ */
+
+.view-gift-options .views-row {
+	margin-top: 20px;
+}
+
+.view-gift-options .group-left .field {
+	margin-right: 10px;
+}
+
+.view-gift-options h2 {
+	margin-top: 0;
+	width: 215px;
+}
+
+.view-gift-options .views-row .group-right {
+	position: relative;
+}
+
+.view-gift-options .field-name-field-dessert-product {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+
+
+
 /*
  * Garnishes and Pairings Accordions
  */
@@ -425,4 +456,8 @@ ul.links li {
 	-webkit-border-radius: 2px;
 	border-radius: 2px; /* future proofing */
 	-khtml-border-radius: 2px; /* for old Konqueror browsers */
+}
+
+#block-commerce-cart-cart .cart-empty-block {
+	display: none;
 }

@@ -28,7 +28,7 @@ li a.active {
 #navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
 #navigation .content li {
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0 5px 0 0; /* LTR */
   font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
   font-style: italic;
   font-size: 1.2em;
@@ -59,6 +59,18 @@ li a.active {
 	-khtml-border-radius: 2px; /* for old Konqueror browsers */
 }
 
+
+#navigation ul#superfish-1 li a:before {
+	content: "• ";
+	visibility: hidden;
+}
+
+#navigation ul#superfish-1 li a:after {
+	content: " •";
+	visibility: hidden;
+}
+
+
 #navigation ul#superfish-1 li a.active, #navigation ul#superfish-1 li a:hover, #navigation ul#superfish-1 li.sfHover a.sf-depth-1, #navigation ul#superfish-1 li.menuparent ul a.active:hover {
 	color: #E9E9E9;
 	background-color: #A8083A;
@@ -72,14 +84,12 @@ li a.active {
 	background-color: #A8083A;	
 }
 
- /* @todo - How do we prevent the menu from shifting with the after/before addition of •? */
-
 #navigation ul#superfish-1 li a.active:before, #navigation ul#superfish-1 li a:hover:before, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:before {
-	content: "• ";
+	visibility: visible;
 }
 
 #navigation ul#superfish-1 li a.active:after, #navigation ul#superfish-1 li a:hover:after, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:after {
-	content: " •";
+	visibility: visible;
 }
 
 #navigation ul#superfish-1 li.sf-depth-1 a {
@@ -186,6 +196,10 @@ li a.active {
 	color: #666666;
 	margin: 5px 10px;
 	width: 155px !important;
+}
+
+#navigation ul#superfish-1 li.menuparent ul a:before, #navigation ul#superfish-1 li.menuparent ul a:after {
+	content: "";
 }
 
 .block-menu-block .menu-name-main-menu ul.menu li a {

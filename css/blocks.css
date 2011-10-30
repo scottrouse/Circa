@@ -157,7 +157,7 @@ h2.block-title /* Block title */ {
 #block-system-user-menu /* Secondary (Footer) Menu Block */ {
 	position: absolute;
 	top: -230px;
-	left: 620px;
+	left: 600px;
 	z-index: 5;
 }
 
@@ -203,14 +203,16 @@ h2.block-title /* Block title */ {
 
 
 
-
+#block-block-2 /* Facebook Sidebar Block */, #block-addtoany-addtoany-button {
+	text-align: center;
+}
 
 
 
 #block-commerce-cart-cart {
 	position: absolute;
 	top: -238px;
-	left: 649px;
+	left: 627px;
 	z-index: 10;
 }
 
@@ -220,7 +222,7 @@ h2.block-title /* Block title */ {
 #block-block-5 /* Facebook Header Block */ {
 	position: absolute;
 	top: -243px;
-	left: 612px;
+	left: 597px;
 }
 
 
