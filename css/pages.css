@@ -480,6 +480,7 @@ ul.links li {
 
 .front #content .section {
 	padding: 0;
+	margin-top: -172px;
 }
 
 .view-front-page-featured-slideshow {
@@ -518,6 +519,7 @@ ul.links li {
 	background: url(../images/slideshow-controls-sprite.png) no-repeat;
 	display: block;
 	background-position: -29px 0;
+	cursor: pointer;
 }
 
 .view-front-page-featured-slideshow .views-slideshow-controls-bottom #views_slideshow_controls_text_front_page_featured_slideshow-page #views_slideshow_controls_text_previous_front_page_featured_slideshow-page, .view-front-page-featured-slideshow .views-slideshow-controls-bottom #views_slideshow_controls_text_front_page_featured_slideshow-page #views_slideshow_controls_text_next_front_page_featured_slideshow-page {
