@@ -461,3 +461,143 @@ ul.links li {
 #block-commerce-cart-cart .cart-empty-block {
 	display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Front Page Featured Slideshow
+ */
+
+.front #content .section {
+	padding: 0;
+}
+
+.view-front-page-featured-slideshow {
+	position: relative;
+	height: 600px;	/* Set this to the width of the main image style */
+	width: 960px;
+}
+
+
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .views-slideshow-cycle-main-frame-row, .view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .views-slideshow-cycle-main-frame-row .views-field-field-dessert-featured-image {
+	position: absolute;
+	top: 0;
+	height: 600px;
+	width: 960px;
+}
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .views-slideshow-cycle-main-frame-row .views-field-field-dessert-featured-image {
+	z-index: -10;
+}
+
+
+
+.view-front-page-featured-slideshow .views-slideshow-controls-bottom {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+}
+
+.view-front-page-featured-slideshow .views-slideshow-controls-bottom #views_slideshow_controls_text_front_page_featured_slideshow-page span a , .view-front-page-featured-slideshow .views-slideshow-controls-bottom #widget_pager_bottom_front_page_featured_slideshow-page .views-content-nid {
+	width: 25px;
+	height: 25px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/slideshow-controls-sprite.png) no-repeat;
+	display: block;
+	background-position: -29px 0;
+}
+
+.view-front-page-featured-slideshow .views-slideshow-controls-bottom #views_slideshow_controls_text_front_page_featured_slideshow-page #views_slideshow_controls_text_previous_front_page_featured_slideshow-page, .view-front-page-featured-slideshow .views-slideshow-controls-bottom #views_slideshow_controls_text_front_page_featured_slideshow-page #views_slideshow_controls_text_next_front_page_featured_slideshow-page {
+	display: none;
+}
+
+.view-front-page-featured-slideshow .views-slideshow-controls-bottom #widget_pager_bottom_front_page_featured_slideshow-page .views-content-nid {
+	background-position: -58px 0;
+}
+
+.view-front-page-featured-slideshow .views-slideshow-controls-bottom #widget_pager_bottom_front_page_featured_slideshow-page .active .views-content-nid {
+	background-position: -84px 0;
+}
+
+.view-front-page-featured-slideshow .views-slideshow-controls-bottom #views_slideshow_controls_text_front_page_featured_slideshow-page, .view-front-page-featured-slideshow .views-slideshow-controls-bottom #widget_pager_bottom_front_page_featured_slideshow-page, .view-front-page-featured-slideshow .views-slideshow-controls-bottom #widget_pager_bottom_front_page_featured_slideshow-page .views-slideshow-pager-field-item {
+	float: left;
+}
+
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details {
+	position: absolute;
+	right: 30px;
+	bottom: 0px;
+	width: 400px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 5px #EEEEEE;
+	-moz-box-shadow: 0px 0px 5px #EEEEEE;
+	-webkit-box-shadow: 0px 0px 5px #EEEEEE;
+}
+
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details h2.slideshow-title {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 0;
+	background: -moz-linear-gradient(top, rgba(67,40,24,0.18) 0%, rgba(67,40,24,0.16) 2%, rgba(67,40,24,0.09) 37%, rgba(67,40,24,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(67,40,24,0.18)), color-stop(2%,rgba(67,40,24,0.16)), color-stop(37%,rgba(67,40,24,0.09)), color-stop(100%,rgba(67,40,24,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(67,40,24,0.18) 0%,rgba(67,40,24,0.16) 2%,rgba(67,40,24,0.09) 37%,rgba(67,40,24,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(67,40,24,0.18) 0%,rgba(67,40,24,0.16) 2%,rgba(67,40,24,0.09) 37%,rgba(67,40,24,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(67,40,24,0.18) 0%,rgba(67,40,24,0.16) 2%,rgba(67,40,24,0.09) 37%,rgba(67,40,24,0) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(67,40,24,0.18) 0%,rgba(67,40,24,0.16) 2%,rgba(67,40,24,0.09) 37%,rgba(67,40,24,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e432818', endColorstr='#00432818',GradientType=0 ); /* IE6-9 */
+}
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details h2.slideshow-title a {
+	text-decoration: none;
+	color: #432818;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+	font-size: 0.8em;
+	padding: 10px;
+	border-bottom: 1px solid #A0928B;
+	display: block;
+	margin: 0 10px;
+}
+
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details .dessert-description {
+	margin: 0 20px;
+}
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details .dessert-description p {
+	margin-bottom: 0;
+}
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details .dessert-buy-now {
+	text-align: right;
+	background: -moz-linear-gradient(top, rgba(67,40,24,0) 0%, rgba(67,40,24,0.08) 40%, rgba(67,40,24,0.27) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(67,40,24,0)), color-stop(40%,rgba(67,40,24,0.08)), color-stop(100%,rgba(67,40,24,0.27))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(67,40,24,0) 0%,rgba(67,40,24,0.08) 40%,rgba(67,40,24,0.27) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(67,40,24,0) 0%,rgba(67,40,24,0.08) 40%,rgba(67,40,24,0.27) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(67,40,24,0) 0%,rgba(67,40,24,0.08) 40%,rgba(67,40,24,0.27) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(67,40,24,0) 0%,rgba(67,40,24,0.08) 40%,rgba(67,40,24,0.27) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00432818', endColorstr='#45432818',GradientType=0 ); /* IE6-9 */
+}
+
+.view-front-page-featured-slideshow #views_slideshow_cycle_main_front_page_featured_slideshow-page .slideshow-details .dessert-buy-now form.commerce-add-to-cart {
+	padding: 20px 20px 40px 0;
+	background-image: url(../images/slideshow-description-swirl.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	height: 35px;
+}
