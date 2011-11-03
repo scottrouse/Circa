@@ -368,16 +368,16 @@ h2.block-title /* Block title */ {
 }
 
 #block-block-8 p {
-	margin-top: 0;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 10px;
 }
 
 
 #block-views-front-page-gifts-block .views-field-field-gift-description, #block-block-8 .content {
-	font-size: 0.7em;
-	line-height: 0.7em;
-	line-height: 1.2em;
+	font-size: 12px;
+	line-height: 18px;
 	padding: 0 20px;
 	/*
 -moz-column-count: 2;
