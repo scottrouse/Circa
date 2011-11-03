@@ -71,7 +71,7 @@ li a.active {
 }
 
 
-#navigation ul#superfish-1 li a.active, #navigation ul#superfish-1 li a:hover, #navigation ul#superfish-1 li.sfHover a.sf-depth-1, #navigation ul#superfish-1 li.menuparent ul a.active:hover {
+#navigation ul#superfish-1 li a.active, #navigation ul#superfish-1 li a:hover, #navigation ul#superfish-1 li.sfHover a.sf-depth-1, #navigation ul#superfish-1 li.menuparent ul a.active:hover, #navigation ul#superfish-1 li.active-trail a.sf-depth-1 {
 	color: #E9E9E9;
 	background-color: #A8083A;
 	box-shadow: 0px 0px 3px #B7B6B6;
@@ -84,11 +84,11 @@ li a.active {
 	background-color: #A8083A;	
 }
 
-#navigation ul#superfish-1 li a.active:before, #navigation ul#superfish-1 li a:hover:before, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:before {
+#navigation ul#superfish-1 li a.active:before, #navigation ul#superfish-1 li a:hover:before, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:before, #navigation ul#superfish-1 li.active-trail a.sf-depth-1:before {
 	visibility: visible;
 }
 
-#navigation ul#superfish-1 li a.active:after, #navigation ul#superfish-1 li a:hover:after, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:after {
+#navigation ul#superfish-1 li a.active:after, #navigation ul#superfish-1 li a:hover:after, #navigation ul#superfish-1 li.sfHover a.sf-depth-1:after, #navigation ul#superfish-1 li.active-trail a.sf-depth-1:after {
 	visibility: visible;
 }
 
