@@ -306,6 +306,40 @@ ul.links li {
 	height: 360px;
 }
 
+.ds-right_top {
+	position: relative;
+}
+
+.node-dessert .ds-right_top .field-name-field-dessert-product {
+	position: absolute;
+	right: 50px;
+	bottom: 58px;
+	z-index: 100;
+}
+
+.node-dessert .ds-right_top .field-name-field-dessert-product input.form-submit {
+	font-size: 110%;
+	height: auto;
+	padding: 10px 30px;
+	box-shadow: 1px 1px 3px #6C6967;
+	-moz-box-shadow: 1px 1px 3px #6C6967;
+	-webkit-box-shadow: 1px 1px 3px #6C6967;
+	font-style: italic;
+}
+
+.node-dessert .ds-right_top .price {
+	position: absolute;
+	right: 62px;
+	bottom: 35px;
+	z-index: 99;
+	color: #fff;
+	font-style: italic;
+	font-size: 1.3em;
+	font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+	text-shadow: 0px 0px 3px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=0);
+}
+
 .field-name-field-dessert-product-image ul.field-slideshow-pager {
 	position: absolute;
 }
@@ -339,6 +373,7 @@ ul.links li {
 .ds-bottom_wrapper {
 	background: url(../images/top-border.png) repeat-x top;
 	padding-top: 40px;
+	margin-top: -25px;
 	position: relative;
 	/* top: -20px; */
 	z-index: 50;
@@ -603,3 +638,57 @@ ul.links li {
 	background-repeat: no-repeat;
 	height: 35px;
 }
+
+/* Begin added by Gabe 10/31/11 */
+
+div.field-name-field-dessert-baking-directions h4 {
+	text-align: center;
+	text-transform: lowercase;
+	font-family: georgia, times, serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	color: #432818;
+	margin-bottom: -5px;
+}
+
+div.field-name-field-dessert-baking-directions ol {
+	list-style-type: none;
+}
+
+div.field-name-field-dessert-baking-directions ol li {
+	position: relative;
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+	border-bottom: dotted 2px #432818;
+}
+
+div.field-name-field-dessert-baking-directions ol li:last-child {
+	border-style: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+div.field-name-field-dessert-baking-directions ol li span {
+	position: absolute;
+	top: -3px;
+	left: -23px;
+	color: #ac7333;
+	font-family: georgia, times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+div.ui-accordion h3,
+div.ui-accordion h3 a {
+	background-image: none;
+	background-color: #A8083A;
+	color: #fff !important;
+	font-family: georgia, times, serif;
+	font-style: italic;
+	font-size: 17px;
+	border: solid 1px #A8083A;
+}
+
+/* End added by Gabe 10/31/11 */

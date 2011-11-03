@@ -56,6 +56,7 @@ input {
 	text-align: center;
 	margin: 1px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 a.form-submit {
@@ -148,3 +149,11 @@ form tr.even {
 form table .item-list ul {
   margin: 0;
 }
+
+/* Begin added by Gabe */
+
+form input.checkout-continue {
+	margin-right: 5px;
+}
+
+/* End added by Gabe */

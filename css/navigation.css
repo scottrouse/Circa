@@ -144,6 +144,18 @@ li a.active {
 	background-repeat: no-repeat;
 }
 
+#node_dessert_full_group_quick_facts .field-name-field-desert-disclaimer {
+	border-style: none;
+	background-image: none;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+#node_dessert_full_group_quick_facts .field-name-field-desert-disclaimer div.field-label {
+	display: none;
+}
+
 #node_dessert_full_group_quick_facts .field .field-label, #node_dessert_full_group_quick_facts .field {
 	color: #666666;
 	font-weight: normal;

@@ -172,6 +172,7 @@ body {
  */
 .region-bottom /* See also the #page-wrapper declaration above that this div shares. */ {
 	/* margin-top: -18px; */
+	position: relative;
 }
 
 .region-bottom .block {

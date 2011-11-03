@@ -76,3 +76,11 @@
 
 .field-name-field-FIELDNAME /* Underscores in field name are replaced with dashes. */ {
 }
+
+
+div.field-name-commerce-price {
+	font-size: 16px;
+	font-family: georgia, times, serif;
+	font-style: italic;
+	color: #432818;
+}
