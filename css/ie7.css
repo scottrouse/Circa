@@ -40,6 +40,7 @@ tr.odd td {
 
 
 
+/*
 #page-wrapper {
 	z-index: 300;
 	position: relative;
@@ -52,7 +53,48 @@ tr.odd td {
 .sf-menu {
 	position: relative;
 }
+*/
 
+/*
 .not-front #header {
 	z-index: -10;
+}
+*/
+
+
+
+
+/* Parent element of absolutely positioned element
+ * cannot have relative position in order for z-index to take effect
+ * in IE7.
+ *
+ *
+*/
+
+.front #main-wrapper {
+	position: static; 
+}
+
+.front #navigation {
+	top: 115px; /* We have to tweak this since before we were positioning relative to #main-wrapper */
+	left: auto;
+	z-index: 300;
+}
+
+.front #navigation .content ul.sf-menu {
+	margin-left: 225px;
+}
+
+.not-front #main-wrapper {
+	position: static; 
+}
+
+.not-front #navigation {
+	top: 115px; /* We have to tweak this since before we were positioning relative to #main-wrapper */
+	left: auto;
+	z-index: 300;
+}
+
+.not-front #navigation .content ul.sf-menu {
+	margin-left: 225px;
 }
