@@ -227,6 +227,7 @@ h2.block-title /* Block title */ {
 	position: absolute;
 	top: -243px;
 	left: 652px;
+	z-index: 30;
 }
 
 
