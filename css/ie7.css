@@ -36,3 +36,23 @@ tr.odd th,
 tr.odd td {
   border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
 }
+
+
+
+
+#page-wrapper {
+	z-index: 300;
+	position: relative;
+}
+
+#navigation {
+	z-index: 300;
+}
+
+.sf-menu {
+	position: relative;
+}
+
+.not-front #header {
+	z-index: -10;
+}
