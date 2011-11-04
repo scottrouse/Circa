@@ -113,10 +113,6 @@ h2.block-title /* Block title */ {
 	margin-right: 20px;
 }
 
-.logged-in #block-block-1 /* Copyright Statement Block (logged in) */ {
-	margin-right: 80px;
-}
-
 
 #block-menu-block-2 /* Secondary (Footer) Menu Block */ {
 	float: left;
