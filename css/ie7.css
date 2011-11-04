@@ -64,6 +64,12 @@ tr.odd td {
 
 
 
+#navigation ul#superfish-1 li a {
+	color: #000;
+}
+
+
+
 /* Parent element of absolutely positioned element
  * cannot have relative position in order for z-index to take effect
  * in IE7.
