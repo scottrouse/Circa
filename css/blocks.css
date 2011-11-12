@@ -371,6 +371,13 @@ h2.block-title /* Block title */ {
 	padding-bottom: 10px;
 }
 
+#block-block-9 {
+	position: absolute;
+	top: -195px;
+	right: 70px;
+	z-index: 99;
+}
+
 
 #block-views-front-page-gifts-block .views-field-field-gift-description, #block-block-8 .content {
 	font-size: 12px;

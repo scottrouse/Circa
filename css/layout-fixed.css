@@ -98,7 +98,7 @@ body {
   padding: 10px 30px;
 }
 
-.node-type-dessert #content .section {
+.node-type-dessert #content .section, .node-type-uc-dessert #content .section {
   margin: 0;
   padding: 0;
 }

@@ -78,7 +78,7 @@
 }
 
 
-div.field-name-commerce-price {
+div.field-name-commerce-price, div.display-price {
 	font-size: 16px;
 	font-family: georgia, times, serif;
 	font-style: italic;
